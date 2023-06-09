@@ -368,7 +368,7 @@ a {
 .logo-flex-apart {
   width: 100%;
   max-width: 31.16em;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-top: 1.88em;
   display: flex;
@@ -376,6 +376,10 @@ a {
 
 .max-223px {
   max-width: 13.94em;
+}
+
+.max-223px.hide {
+  display: none;
 }
 
 .max-199 {
