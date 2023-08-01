@@ -55,10 +55,6 @@ a {
   position: relative;
 }
 
-.section.bg-gradient {
-  background-image: linear-gradient(135deg, #ede3ff, #d6fcff);
-}
-
 .container {
   width: 100%;
   max-width: 90em;
@@ -319,6 +315,7 @@ a {
   z-index: 1;
   width: 100%;
   max-width: 26.88em;
+  margin-bottom: 7%;
   position: absolute;
   top: auto;
   bottom: 0%;
@@ -517,7 +514,7 @@ a {
 
 .padding-80-80 {
   padding-top: 5em;
-  padding-bottom: 5em;
+  padding-bottom: 0;
 }
 
 .padding-80-80.z-1index {
@@ -633,10 +630,6 @@ a {
   align-items: center;
   padding: .63em 1.75em 1.25em;
   display: flex;
-}
-
-.navvbg.web-hide {
-  display: none;
 }
 
 .bold-17px {
@@ -1043,6 +1036,47 @@ a {
   display: none;
 }
 
+.banner {
+  color: #000;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .85);
+  padding: 1em 3%;
+  font-family: Inter, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.logo-wrapper {
+  grid-column-gap: 12.5em;
+  grid-row-gap: 12.5em;
+  background-color: rgba(255, 255, 255, .6);
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em 3% .8em;
+  display: flex;
+}
+
+.text-block-4 {
+  text-align: center;
+  margin-bottom: .8em;
+  font-size: 1.5em;
+}
+
+.divider {
+  width: 80%;
+  height: 1px;
+  max-width: 1045px;
+  background-color: rgba(0, 0, 0, .1);
+  margin-top: 58px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-block-4 {
+  width: 100%;
+}
+
 @media screen and (max-width: 991px) {
   .body {
     font-size: 2vw;
@@ -1397,6 +1431,8 @@ a {
   .container.flex-align-center.gap-200px {
     grid-column-gap: 3em;
     grid-row-gap: 3em;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .padding-170-140px {
@@ -1443,6 +1479,7 @@ a {
 
   .hero-image {
     max-width: 11em;
+    margin-bottom: 22%;
     bottom: 0%;
     left: 0%;
   }
@@ -1538,10 +1575,6 @@ a {
 
   .navvbg.m-hide {
     display: none;
-  }
-
-  .navvbg.web-hide {
-    display: block;
   }
 
   .bold-17px {
@@ -1687,6 +1720,18 @@ a {
     min-height: 0;
   }
 
+  .max-232px {
+    max-width: 13em;
+  }
+
+  .max-198px {
+    max-width: 12em;
+  }
+
+  .max-198px._100 {
+    width: 40%;
+  }
+
   .navvbggg {
     text-align: left;
     padding-top: 0;
@@ -1694,12 +1739,23 @@ a {
     padding-right: 0;
   }
 
-  .navvbggg.m-hide {
-    display: none;
-  }
-
   .navvbggg.web-hide {
     display: block;
+  }
+
+  .banner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .logo-wrapper {
+    grid-column-gap: 2.5em;
+    grid-row-gap: 2.5em;
+    padding: 2em 16px;
+  }
+
+  .divider {
+    margin-top: 30px;
   }
 }
 
