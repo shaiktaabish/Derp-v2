@@ -1020,7 +1020,12 @@ a {
 }
 
 .max-198px {
+  width: 100%;
   max-width: 12.38em;
+}
+
+.max-198px._100 {
+  width: 100%;
 }
 
 .navvbggg {
