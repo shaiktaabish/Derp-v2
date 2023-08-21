@@ -607,7 +607,8 @@ a {
 }
 
 .max-258px {
-  max-width: 16.13em;
+  width: 100%;
+  max-width: 25.37em;
 }
 
 .icon {
@@ -1734,7 +1735,7 @@ a {
   }
 
   .max-198px._100 {
-    width: 40%;
+    width: 100%;
   }
 
   .navvbggg {
